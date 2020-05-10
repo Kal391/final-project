@@ -1,0 +1,289 @@
+
+.lk{
+    text-align: center
+}
+
+*{
+    font-family: fantasy;
+}
+.kl, .tg{
+    text-align: center;
+    font-size: 20px;
+    text-decoration:underline;
+    color:lightgray
+}
+
+.tg{
+    margin: 28px;
+    padding: 16px;
+    background-color:blue;
+    float:none;
+   }
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact, .me{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.wk{
+    text-align: center;
+    font-size: 30px;   
+    }
+
+.wk{
+    flex-flow: wrap;
+    flex-direction: column;
+}
+
+.jj{
+    font-size: 22px;
+    text-align:center
+    }
+.im{
+    text-align: center;
+    flex-basis: 33px;
+    flex: 20px;
+    display: inline-flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.po{
+    font-size:22px;
+    text-align:center;
+   padding: 22px;
+    margin: auto;
+}
+
+.lo{
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+    margin: 8px;
+}
+
+.vid{
+    font-size: 22px;
+    text-align: center;
+    padding:17px;
+    margin: 19px;
+    margin-bottom: 55px;
+    color: gold;
+}
+
+nav {
+    display: inline;
+ }
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:firebrick;
+}
+
+nav li {
+    float:none;
+}
+
+nav li a {
+    display: block;
+    text-align:center;
+    padding: 11px 16px;
+    text-decoration:none;
+    font-size:22px;
+    }
+
+/* media */
+@media only screen and (min-width:375px) and (max-device-width:667px){
+    
+    .wrapper {
+width: 100%;
+}
+    
+   
+.kl{
+    width: 100%;
+}
+.kl{
+    text-align: center;
+    padding: 0px 30px 20px;
+    font-family: fantasy;
+    font-size: 24px;
+    color:navajowhite; 
+    line-height: 24px;
+}
+
+.lk,.lki{
+    width: 100%;
+}
+    .lki{
+        width:50% ;
+        height: 50%;
+    }
+    .wrapper{
+       text-align: center;
+    }
+ nav {
+    display:flex;
+     position:relative;
+     left: 0;
+     top: 0;
+     }
+
+ #nav{
+        width: 100%;
+    }
+    
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding:0%;
+    display: flex;
+}
+
+nav, ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color:firebrick;
+        
+}
+
+nav li {
+    float:left;
+}
+
+nav li a {
+    display: block;
+       color: aqua;
+    text-align:center;
+    padding: 16px 20px;
+    text-decoration:none;
+    font-size:22px;
+    }
+    
+.jj,.vid,.pic,.lo,.wk{
+    color: whitesmoke;
+      font-size:26px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 3px;
+    }
+.contact,.me{
+font-size: 41px; 
+    color:mediumblue;
+    }
+}
+
+/* media */
+@media only screen and (min-width:768px) and (max-device-width:1024px){
+    
+    .wrapper {
+width: 100%;
+}
+    
+   
+.kl{
+    width: 100%;
+}
+.kl{
+    text-align: center;
+    padding: 0px 30px 20px;
+    font-family: fantasy;
+    font-size: 24px;
+    color:navajowhite; 
+    line-height: 24px;
+}
+
+.lk,.lki{
+    width: 100%;
+}
+    .lki{
+        width:50% ;
+        height: 50%;
+    }
+    .wrapper{
+       text-align: center;
+    }
+ nav {
+    display:flex;
+     position:relative;
+     left: 0;
+     top: 0;
+     }
+
+ #nav{
+        width: 100%;
+    }
+    
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding:0%;
+    display: flex;
+}
+
+nav, ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color:firebrick;
+        
+}
+
+nav li {
+    float:left;
+}
+
+nav li a {
+    display: block;
+       color: aqua;
+    text-align:center;
+    padding: 16px 20px;
+    text-decoration:none;
+    font-size:22px;
+    }
+    
+.jj,.vid,.lo,.wk,.po{
+    color:yellow;
+    text-align: center;
+      font-size:44px;
+    text-decoration: none;
+    }
+.contact,.me{
+font-size: 41px; 
+    color:mediumblue;
+    }
+    h1{
+        font-size: 99px;
+        color: whitesmoke;
+    }
+    .tg{
+        font-size: 49px;
+        text-decoration-color: darkgray;
+        background-color:black;
+        text-decoration: overline;
+    }
+}
+
+
+
+
+
+
